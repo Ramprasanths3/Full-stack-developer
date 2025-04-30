@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table border="1" cellspacing="3" cellpadding="10">
+   
+   <tr >
+    <th colspan="2">INFORMATION FORM</th>
+   </tr>
+   <tr>
+        <th>Name</th>
+        <th>
+            <input type="text" name="name" placeholder="Enter your name">
+        </th>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>
+            <input type="email" name="email" placeholder="Enter your email">
+        </td>
+    </tr>
+<tr>
+    <th rowspan="2">gender
+    </th>
+    <td>
+        <input type="radio" name ="Gender" value="male">Male
+    </td>
+    <tr>
+        <td>
+            <input type="radio" name ="gender" value="female">female
+        </td>
+    </tr>
+    <tr>
+        <th>Date of birth</th>
+        <td>
+            <input type="date" name="date">
+        </td>
+            <tr>
+                <th>Mobile No</th>
+                <td>
+                <input type="number" name="number" placeholder="Enter your number">
+                </td>
+            </tr>
+            <tr>
+                <th>Father Name</th>
+                <td>
+                    <input type="text" name="Father" placeholder="Enter your name">
+                </td>
+                <tr>
+                    <th>Mother Name</th>
+                    <td>
+                        <input type="text" name="Mother" placeholder="Enter your Name">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td>
+                        <input type="text" name="Address" placeholder="Enter your Address">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Skills</th>
+                    <td> <input type="text" name="skills" placeholder="skills"></td>
+                </tr>
+                <tr>
+                    <th  colspan="2">
+                        <center><button>submit</button></center>
+                    </th>
+                </tr>
+</tr>
+    </table>
+</body>
+</html>
