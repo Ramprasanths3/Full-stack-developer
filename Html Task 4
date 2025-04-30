@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Text input for name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Number input -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <!-- Date input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        
+        <!-- Number input for age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" min="18" max="100" required><br><br>
+
+         <!-- Text input for address -->
+         <label for="address name">Full address </address>Name:</label>
+         <input type="text" id="Full address name" name="Full address name" placeholder="Enter your address" required><br><br>
+
+        <!-- Time input -->
+        <label for="appt-time">Preferred Appointment Time:</label>
+        <input type="time" id="appt-time" name="appt-time" required><br><br>
+
+        <!-- URL input -->
+        <label for="website">Website link:</label>
+        <input type="link" id="website" name="website" placeholder="Enter your website link"><br><br>
+
+        <!-- Range input for experience -->
+        <label for="experience">Experience (years):</label>
+        <input type="range" id="experience" name="experience" min="0" max="40" value="5"><br><br>
+
+        <!-- File input -->
+        <label for="profile-pic">Profile Picture:</label>
+        <input type="file" id="profile-pic" name="profile-pic"><br><br>
+
+        <!-- Checkbox for terms and conditions -->
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the <a href="#">terms and conditions</a>.
+        </label><br><br>
+
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male"> Male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female
+        </label><br><br>
+
+        <!-- Select dropdown for country -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+        </select><br><br>
+
+        <!-- Textarea for bio -->
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
