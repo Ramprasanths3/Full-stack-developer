@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Bakery</title>
+</head>
+<body>
+    <h1>leo Bakery</h1>
+     <ol>
+        <li><a href="#cake">BLACK FOREST</a></li>
+        <li><a href="#tea">GREEN TEA</a></li>
+        <li><a href="#icecream">VENILLA</a></li>
+        <li><a href="#chocalate">5 STAR</a></li>
+        <li><a href="#juice">FRUIT JUICE</a></li>
+     </ol>
+
+    <section id="CAKE">
+        <h2>BLACK FOREST</h2>
+        <center><img src="CAKE.jpg" width="200px" height="200px" ></center>
+        <p>A bakery is an establishment that produces and sells flour-based baked goods made in an oven such as bread, cookies, cakes,and pies</p>
+    </section>
+
+    <section id="GREEN tea">
+        <h2>GREEN TEA</h2>
+        <center><img src="tea.jpg"  width="200px" height="200px"></center>
+        <p>A bakery is an establishment that produces and sells flour-based baked goods made in an oven such as bread, cookies, cakes,and pies</p>
+    </section>
+
+    
+    <section id="ice cream">
+        <h2>VENILLA</h2>
+        <center><img src="ice cream.jpg"  width="200px" height="200px"></center>
+        <p>A bakery is an establishment that produces and sells flour-based baked goods made in an oven such as bread, cookies, cakes,and pies</p>
+    </section>
+
+    <section id="chocolate">
+        <h2>5 STAR</h2>
+        <center><img src="chocolate.jpg"  width="200px" height="200px"></center>
+        <p>A bakery is an establishment that produces and sells flour-based baked goods made in an oven such as bread, cookies, cakes,and pies</p>
+    </section>
+
+    <section id="JUICE">
+        <h2>FRUIT JUICE</h2>
+        <center><img src="juice.jpg"  width="200px" height="200px"></center>
+        <p>A bakery is an establishment that produces and sells flour-based baked goods made in an oven such as bread, cookies, cakes,and pies</p>
+    </section>
+       </body>
+</html>
