@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="one" style="background-color: rgb(33, 159, 237); padding: 20px;">
+        <h2 style="color: rgb(1, 8, 14); ">HEADER</h2>
+    </div>
+    <br>
+    <div class="two" style="background-color: aqua; padding: 10px;">
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/72yrzMrN6eg?si=MJ4eUpt1LtJq-cRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+    </div>
+    <br>
+    <div class="two" style="background-color: rgb(64, 54, 161); padding: 50px;">
+        <center><audio src="./audio mp3.mp3" autoplay controls></audio></center>
+    </div>
+    <br>
+    <div class="two" style="background-color: rgb(133, 124, 131); padding: 50px;">
+        <center><img src="./download.jpg" alt=""></center>
+    </div>
+    <br>
+    <div class="two" style="background-color: rgb(49, 86, 8); padding: 20px;">
+        <h2 style="color: aliceblue;">FOOTER</h2>
+    </div>
+
+    
+
+    
+</body>
+</html>
